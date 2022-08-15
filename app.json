@@ -1,0 +1,20 @@
+{
+  "name": "newwabot",
+  "description": "whatsapp multi device bot build with nodejs on baileys",
+  "repository": "https://github.com/Arus-Bots/Mizuhara/",
+  "logo": "https://telegra.ph/file/324ba754638d6b0f97b94.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+   "success_url": "/",
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+     "url": "https://github.com/ItsJimi/heroku-buildpack-pm2"
+    },
+    {
+      "url": "https://buildpack-registry.s3.amazonaws.com/buildpacks/jontewks/puppeteer.tgz"
+    }
+  ],
+}
