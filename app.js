@@ -19,7 +19,7 @@ const hub = new RandomHub();
 const nsfw = new RandomPHUB((unique = true));
 let randno = Math.floor(Math.random() * 10);
 const thumb = 'https://cdn.discordapp.com/attachments/753764856095703182/896815436560203776/Mandity_Izabella7.jpg';
-const thumb1= 'https://ibb.co/4SBh0Mh';
+const thumb1= 'https://cdn.discordapp.com/attachments/853643102936629251/1009010709222404166/images_3.jpg';
 const time = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
 
 const caption = `*Made by Sex bot*
